@@ -1,3 +1,9 @@
+xf86-input-cmt (2.0.6-14galliumos1) vivid-galliumos; urgency=medium
+
+  * Modified some configs to remove increase the timeout for taps and reduce the min pressure for the c740
+
+ -- Hugh Greenberg <hugh@galliumos.org>  Mon, 14 Dec 2015 22:33:16 -0600
+
 xf86-input-cmt (2.0.6-13ubuntu1) vivid-galliumos; urgency=medium
 
   * Changed scroll valuator
