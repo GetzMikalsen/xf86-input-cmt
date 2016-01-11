@@ -1,3 +1,10 @@
+xf86-input-cmt (2.0.18) vivid-galliumos; urgency=medium
+
+  * Set package version to match provenance
+  * Upstream https://github.com/hugegreenbug/xf86-input-cmt
+
+ -- reynhout <reynhout@galliumos.org>  Sun, 10 Jan 2016 21:05:33 +0000
+
 xf86-input-cmt (2.0.6-14galliumos1) vivid-galliumos; urgency=medium
 
   * Modified some configs to remove increase the timeout for taps and reduce the min pressure for the c740
