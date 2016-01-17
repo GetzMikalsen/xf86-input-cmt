@@ -1,3 +1,10 @@
+xf86-input-cmt (2.0.19) vivid-galliumos; urgency=medium
+
+  * Updated auron_paine config
+  * Changed Accel Min dt again
+
+ -- Hugh Greenberg <hugh@galliumos.org>  Sun, 17 Jan 2016 21:05:33 +0000
+
 xf86-input-cmt (2.0.18) vivid-galliumos; urgency=medium
 
   * Set package version to match provenance
