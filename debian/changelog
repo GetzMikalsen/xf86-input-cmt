@@ -1,3 +1,9 @@
+xf86-input-cmt (2.0.22) vivid-galliumos; urgency=medium
+
+  * Increased the tap drag delay a little more
+
+ -- Hugh Greenberg <hugh@galliumos.org>  Tue, 27 Jan 2016 21:05:33 +0000
+
 xf86-input-cmt (2.0.21) vivid-galliumos; urgency=medium
 
   * Increased the tap drag delay now that we have a better tap to click splitting implementation
