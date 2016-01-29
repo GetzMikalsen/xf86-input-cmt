@@ -1,3 +1,9 @@
+xf86-input-cmt (2.0.23) vivid-galliumos; urgency=medium
+
+  * Reduced the tap minimum pressure for Aruon Yuna based on: https://www.reddit.com/r/GalliumOS/comments/42yxff/fix_touchpad_and_laggy_scrolling_on_c910/czekevc
+
+ -- Hugh Greenberg <hugh@galliumos.org>  Fri, 29 Jan 2016 21:05:33 +0000
+
 xf86-input-cmt (2.0.22) vivid-galliumos; urgency=medium
 
   * Increased the tap drag delay a little more
