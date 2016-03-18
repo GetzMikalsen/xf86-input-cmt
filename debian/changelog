@@ -1,3 +1,16 @@
+xf86-input-cmt (2.0.24) vivid-galliumos; urgency=medium
+
+  * Fix libgestures dependency version
+  * Rename binary package to xserver-xorg-input-cmt
+  * Replace xserver-xorg-input-synaptics-lts-vivid
+  * Build with xserver-xorg-dev-lts-vivid if available
+  * Install/Remove model specific config during install/removal
+  * Add dmidecode dependency for detecting model
+  * Improve parrot config by borrowing tunings from peppy
+  * Fix missing configs by installing all configs from source tree
+
+ -- Eugene San (eugenesan) <eugenesan@gmail.com>  Fri, 25 Dec 2015 08:04:45 -0500
+
 xf86-input-cmt (2.0.23) vivid-galliumos; urgency=medium
 
   * Reduced the tap minimum pressure for Aruon Yuna based on: https://www.reddit.com/r/GalliumOS/comments/42yxff/fix_touchpad_and_laggy_scrolling_on_c910/czekevc
@@ -41,6 +54,20 @@ xf86-input-cmt (2.0.6-14galliumos1) vivid-galliumos; urgency=medium
   * Modified some configs to remove increase the timeout for taps and reduce the min pressure for the c740
 
  -- Hugh Greenberg <hugh@galliumos.org>  Mon, 14 Dec 2015 22:33:16 -0600
+
+xf86-input-cmt (2.0.6-13ubuntu2) vivid-galliumos; urgency=medium
+
+  * Fix libgestures dependency version
+  * Rename binary package to xserver-xorg-input-cmt
+  * Replace xserver-xorg-input-synaptics-lts-vivid
+  * Build with xserver-xorg-dev-lts-vivid if available
+  * Install/Remove model specific config during install/removal
+  * Add dmidecode dependency for detecting model
+  * Improve parrot config by borrowing tunings from peppy
+  * Fix missing configs by installing all configs from source tree
+
+ -- Eugene San (eugenesan) <eugenesan@gmail.com>  Fri, 25 Dec 2015 08:04:45 -0500
+>>>>>>> upstream/master
 
 xf86-input-cmt (2.0.6-13ubuntu1) vivid-galliumos; urgency=medium
 
