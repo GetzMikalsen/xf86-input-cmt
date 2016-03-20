@@ -26,6 +26,5 @@ Replaces: xserver-xorg-input-synaptics, xserver-xorg-input-synaptics-lts-vivid,
 Provides: xserver-xorg-input-synaptics, xserver-xorg-input-synaptics-lts-vivid,
           xserver-xorg-input-synaptics-dev, xserver-xorg-input-synaptics-dev-lts-vivid,
           xorg-renamed-package, xorg-renamed-package-lts-vivid
- ${xinpdriver:Provides}, xorg-driver-synaptics
 Description: ChromiumOS touchpad driver
  X11 touchpad driver from ChromiumOS
