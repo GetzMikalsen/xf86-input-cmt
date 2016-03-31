@@ -1,14 +1,23 @@
 #!/bin/sh
 set -e
 
-CB_MODEL="$(dmidecode | grep "Product Name" | awk '{print tolower($3)}')"
+## FIXME: Build server is not a Chromebook and dmidecode will not return a
+##        recognized hardware id (in current KVM, returns "Standard PC").
+##
+##        This config needs to take place on the installation device, and
+##        also on the live image boot.
+##
+##        It might be possible to install a generic version of the config
+##        by default, and only update it for recognized devices?
+
+CB_MODEL="$(dmidecode -s system-product-name | awk '{print tolower($1)}')"
 
 # Install model specific config
 case "$1" in
 	configure)
-                FILE=`ls -1 /usr/share/xf86-input-cmt/*-touchpad-cmt-$CB_MODEL.conf`
-		if [ -r "$FILE" ]; then
-			rm -f /usr/share//usr/share/X11/xorg.conf.d/*-touchpad-cmt-*
+		FILE="`find /usr/share/xf86-input-cmt -name *-touchpad-cmt-$CB_MODEL.conf | head -1`"
+		if [ "$FILE" -a -r "$FILE" ]; then
+			rm -f /usr/share/X11/xorg.conf.d/*-touchpad-cmt-*
 			cp -f "$FILE" /usr/share/X11/xorg.conf.d/
 		fi
 	;;

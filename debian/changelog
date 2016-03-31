@@ -1,3 +1,9 @@
+xf86-input-cmt (2.0.25) xenon; urgency=medium
+
+  * fix postinst failure on build server
+
+ -- reynhout <reynhout@galliumos.org>  Thu, 31 Mar 2016 15:31:56 +0000
+
 xf86-input-cmt (2.0.24) vivid-galliumos; urgency=medium
 
   * Fix libgestures dependency version
