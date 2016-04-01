@@ -1,0 +1,10 @@
+[Unit]
+Description=Copies the configs for the ChromeOS touchpad driver
+
+[Service]
+ExecStart=/usr/bin/init-cmt-configs
+Type=oneshot
+RemainAfterExit=true
+
+[Install]
+WantedBy=multi-user.target

@@ -12,6 +12,11 @@ set -e
 
 CB_MODEL="$(dmidecode -s system-product-name | awk '{print tolower($1)}')"
 
+if [ -z "$CB_MODEL" ]
+then
+	exit 0
+fi
+
 # Install model specific config
 case "$1" in
 	configure)
