@@ -8,3 +8,5 @@ case "$1" in
 		rm -f /usr/share/X11/xorg.conf.d/60-touchpad-cmt-*
 		;;
 esac
+
+#DEBHELPER#
