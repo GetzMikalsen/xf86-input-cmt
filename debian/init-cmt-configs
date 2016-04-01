@@ -1,6 +1,13 @@
 #!/bin/bash
 
-CB_MODEL="$(dmidecode -s system-product-name | awk '{print tolower($1)}')"
+DD="/usr/sbin/dmidecode"
+
+if [ ! -x "$DD" ]
+then
+        exit 0
+fi
+
+CB_MODEL="$($DD -s system-product-name | awk '{print tolower($1)}')"
 
 if [ -z "$CB_MODEL" ]
 then

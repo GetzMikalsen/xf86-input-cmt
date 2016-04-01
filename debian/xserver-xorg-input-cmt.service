@@ -1,5 +1,6 @@
 [Unit]
 Description=Copies the configs for the ChromeOS touchpad driver
+Before=lxdm.service
 
 [Service]
 ExecStart=/usr/bin/init-cmt-configs
