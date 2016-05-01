@@ -23,7 +23,7 @@ Depends: ${shlibs:Depends}, ${misc:Depends},
   libgestures (>= 2.0), libevdevc (>= 2.0),
   dmidecode
 Replaces: xserver-xorg-input-synaptics, xserver-xorg-input-synaptics-lts-vivid,
-          xserver-xorg-input-synaptics-dev, xserver-xorg-input-synaptics-dev-lts-vivid
+          xserver-xorg-input-synaptics-dev, xserver-xorg-input-synaptics-dev-lts-vivid, xf86-input-cmt
 Provides: xserver-xorg-input-synaptics, xserver-xorg-input-synaptics-lts-vivid,
           xserver-xorg-input-synaptics-dev, xserver-xorg-input-synaptics-dev-lts-vivid,
           xorg-renamed-package, xorg-renamed-package-lts-vivid

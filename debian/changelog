@@ -1,3 +1,9 @@
+xf86-input-cmt (2.0.27) xenon; urgency=medium
+
+  * debian/control: add Replaces: xf86-input-cmt to permit in-place upgrade
+
+ -- reynhout <reynhout@galliumos.org>  Sun, 01 May 2016 22:17:10 +0000
+
 xf86-input-cmt (2.0.26) xenon; urgency=medium
 
   * fix postinit script to exit if dmidecode or a product name isn't found
