@@ -1,5 +1,5 @@
 [Unit]
-Description=Copies the configs for the ChromeOS touchpad driver
+Description=GalliumOS model-specific X11 customization for the ChromeOS touchpad driver
 Before=lxdm.service
 
 [Service]
