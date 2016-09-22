@@ -1,8 +1,14 @@
-xf86-input-cmt (2.0.28) xenon; urgency=medium
+xf86-input-cmt (2.0.29) xenon; urgency=medium
 
   * aesthetic-only: fix syntax of systemd status messages
 
  -- reynhout <reynhout@galliumos.org>  Thu, 22 Sep 2016 17:36:24 +0000
+
+xf86-input-cmt (2.0.28) xenon; urgency=medium
+
+  * Changed Tap Minimium Pressure for banjo
+
+ -- Hugh Greenberg <hugh@galliumos.org>  Mon, 9 May 2016 22:17:10 +0000
 
 xf86-input-cmt (2.0.27) xenon; urgency=medium
 
