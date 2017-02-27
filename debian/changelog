@@ -1,3 +1,11 @@
+xf86-input-cmt (2.0.30) xenon; urgency=medium
+
+  * touchpad conf for new models: caroline, cave, elm, kevin, pbody
+  * updates for heli, link
+  * add config/IDs for new peripherals
+
+ -- reynhout <reynhout@galliumos.org>  Mon, 27 Feb 2017 23:11:07 +0000
+
 xf86-input-cmt (2.0.29) xenon; urgency=medium
 
   * aesthetic-only: fix syntax of systemd status messages
