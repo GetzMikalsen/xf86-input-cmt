@@ -1,3 +1,9 @@
+xf86-input-cmt (2.9901) bismuth; urgency=medium
+
+  * Prepare for GalliumOS 3.0
+
+ -- reynhout <reynhout@galliumos.org>  Mon, 07 May 2018 03:02:14 +0000
+
 xf86-input-cmt (2.0.30) xenon; urgency=medium
 
   * touchpad conf for new models: caroline, cave, elm, kevin, pbody
@@ -107,7 +113,6 @@ xf86-input-cmt (2.0.6-13ubuntu2) vivid-galliumos; urgency=medium
   * Fix missing configs by installing all configs from source tree
 
  -- Eugene San (eugenesan) <eugenesan@gmail.com>  Fri, 25 Dec 2015 08:04:45 -0500
->>>>>>> upstream/master
 
 xf86-input-cmt (2.0.6-13ubuntu1) vivid-galliumos; urgency=medium
 
